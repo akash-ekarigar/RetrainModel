@@ -55,7 +55,7 @@ function enableCam(event) {
 }
 
 var model = undefined;
-model_url = 'https://raw.githubusercontent.com/akash-ekarigar/RetrainModel/master/model/mobile_netv2/web_model2/model.json';
+model_url = 'https://raw.githubusercontent.com/akash-ekarigar/RetrainModel/master/model/mobilenet/web_model/model.json';
 //Call load function
 asyncLoadModel(model_url);
 //Function Loads the GraphModel type model of
